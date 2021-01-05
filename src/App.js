@@ -1,11 +1,11 @@
 import "./App.css";
-import CurrencyInput from "./component/currencyInput/currencyInput.index";
+import Dashboard from "./component/dashboard/dashboard.index";
 
 function App() {
   return (
     <div className="App">
       <h1>Welcome to studiousTribe</h1>
-      <CurrencyInput />
+      <Dashboard />
     </div>
   );
 }
